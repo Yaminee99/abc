@@ -1,0 +1,39 @@
+Clone a remote repo:
+
+====>  git clone https://github.com/username/project-name.git
+
+This creates a local copy of the project on your computer.
+
+Make changes locally:
+You edit files, add new code, or fix bugs in your local working directory.
+
+Stage and commit locally:
+
+===========>git add .
+===========>git commit -m "Added new feature"
+
+Push to the remote repository:
+
+============>git push origin main
+
+This sends your committed changes to the remote repository on GitHub (or wherever it's hosted).
+
+Pull the latest changes:
+
+=============>git pull origin main
+
+    This updates your local repository with any new commits made by others to the remote repository.
+
+Summary
+
+    Local repository: The version of your repository on your own computer. It’s where you do your work and make commits.
+    Remote repository: The version of your repository stored on a server or cloud platform (e.g., GitHub). It is shared with other contributors and is used for collaboration, backups, and distribution.
+
+By working with both local and remote repositories, you can manage changes in your project effectively, both individually and in a team environment.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+neosoft@neosoft-Latitude-E7270:~/Downloads/Training_Neosoft/abc$
+==>  git branch -M main
+neosoft@neosoft-Latitude-E7270:~/Downloads/Training_Neosoft/abc$
+===> git remote add origin https://github.com/Yaminee99/abc.git
+neosoft@neosoft-Latitude-E7270:~/Downloads/Training_Neosoft/abc$
+===>  git push -u origin main
